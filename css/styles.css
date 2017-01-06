@@ -1,0 +1,48 @@
+html, body {
+    margin: 0; 
+    padding: 0; 
+    background-color: #82CAFF; 
+    color: #FFF;
+}
+
+
+button {
+    background-color: #FFF;
+    color: #82CAFF;
+}
+
+.center {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 25%; 
+    padding: 0 3%; 
+}
+
+.marginTopTwenty {
+    margin-top: 20%; 
+}
+
+.marginTopTwo {
+    margin-top: 2%; 
+}
+
+.marginBottomTen {
+    margin-bottom: 10%; 
+}
+
+.hideText {
+    color: transparent;
+}
+
+.showText {
+    color: #FFF;
+    text-align: center;
+}
+
+.whiteBackground {
+    background-color: #FFF;
+    color: #1a1a1a;
+    border-radius: 25px; 
+}
