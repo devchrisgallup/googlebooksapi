@@ -1,14 +1,14 @@
 html, body {
     margin: 0; 
     padding: 0; 
-    background-color: #82CAFF; 
+    background-color: #0000FF; 
     color: #FFF;
 }
 
 
 button {
     background-color: #FFF;
-    color: #82CAFF;
+    color: #0000FF;
 }
 
 .center {
