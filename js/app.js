@@ -43,5 +43,12 @@ function processData() {
     }
 }
 
+// bind enter key
+window.addEventListener('keypress', function (e) {
+    if (e.keyCode === 13) {
+        fetchData(); 
+    }
+}, false);
+
 // eventlisteners 
 document.getElementById('processData').addEventListener('click', fetchData, false);
